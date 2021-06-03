@@ -28,12 +28,13 @@ body {
 .faq-container {
     position: relative;
     width: 1070px;
-    height: 660px;
+    height: 750px;
     background-color: white;
     display: flex;
     align-items: flex-end;
     flex-flow: row nowrap;
     border-radius: 40px;
+    border: none;
 }
 
 .faq-image {
@@ -48,11 +49,11 @@ body {
 
 img.desktop-image {
     height: 100%;
-    padding: 110px;
+    padding: 160px;
     position: absolute;
     display: flex;
     align-items: center;
-    left: -210px;
+    left: -230px;
     z-index: 1;
 }
 
@@ -61,13 +62,14 @@ img.desktop-box {
     height: 40%;
     display: flex;
     align-items: center;
-    top: 250px;
+    top: 270px;
     left: -160px;
     z-index: 2;
 }
 
 img.mobile-image {
     display: none;
+    height: 250px;
     transform: translateY(-40%);
 }
 
@@ -75,6 +77,12 @@ img.mobile-image {
     width: 900px;
     height: 100%;
     padding: 40px 70px;
+}
+
+.faq-accordion>h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: rgb(27, 27, 27);
 }
 
 .accordion {
